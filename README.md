@@ -5,6 +5,9 @@
 Part of "Pilvelahenduste arendaja koolitus", first SPFx webpart creation sample:
 - [Build your first Sharepoint client-side web part](https://docs.microsoft.com/et-ee/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part)
 
+Exception:
+* created with **React framework**
+
 ## Used SharePoint Framework Version
 
 ![version](https://img.shields.io/badge/version-1.14-green.svg)
@@ -41,6 +44,7 @@ Version|Date|Comments
 ## Minimal Path to Awesome
 
 - Clone this repository
+  - **git clone https://github.com/ShareCloudOY/Pilvearendaja-HelloWorldWP**
 - Ensure that you are at the solution folder
 - in the command-line run:
   - **npm install**
