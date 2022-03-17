@@ -20,7 +20,7 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
       <section className={`${styles.helloWorld} ${hasTeamsContext ? styles.teams : ''}`}>
         <div className={styles.welcome}>
           <img alt="" src={isDarkTheme ? require('../assets/welcome-dark.png') : require('../assets/welcome-light.png')} className={styles.welcomeImage} />
-          <h2>Well done, {escape(userDisplayName)}!</h2>
+          <h2>Well, {escape(userDisplayName)}!</h2>
           <div>{environmentMessage}</div>
           <div>Webpart property value: <strong>{escape(description)}</strong></div>
         </div>
@@ -34,7 +34,7 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
           {
             spLists.map((list) =>
               <li className={styles.listItem}>
-                <span>{list.Title}</span>
+                <span>{list.Title} - {list.Id}</span>
               </li>
             )
           }

@@ -30,7 +30,8 @@ HelloWorld WP | Mihkel Moorats - ShareCloud OÜ
 
 Version|Date|Comments
 -------|----|--------
-1.0|March 16, 2022|Initial release
+1.0.1.0|March 17, 2022|Ready for deployment
+1.0.0.0|March 16, 2022|Initial release
 
 ## Disclaimer
 
